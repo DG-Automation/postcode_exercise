@@ -19,8 +19,8 @@ public class ConfigManager {
         }
     }
 
-    public static String getPostcodeTestFileLocation() {
-        return config.getProperty("get_postcode_test_file_location");
+    public static String getPostcodesTestFileLocation() {
+        return config.getProperty("get_postcodes_test_file_location");
     }
 
     public static String postcodeIoPostcodesEndpoint() {
